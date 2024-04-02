@@ -1,0 +1,71 @@
+body{
+    padding-top: 56px;
+}
+.jumbotron{
+    text-shadow: black 1px 1px;
+}
+.brand-name{
+    color: cadetblue; 
+    font-weight: bold;
+}
+.background-header{
+    background-image: url("/images/header-banner.jpeg");
+    background-color: beige;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+.header-button{
+    text-shadow: 0px 0px;
+
+}
+.services-style{
+    padding-top: 35px;
+}
+.text-cadet{
+    color: cadetblue;
+}
+.services-btn-style{
+    background-color: rgb(230, 65, 65);
+    text-decoration: none;
+}
+.services-btn-style:hover{
+    background-color: rgb(189, 2, 2);
+}
+.btn-gabung{
+    background-color: cadetblue;
+    color: white;
+}
+.btn-gabung:hover{
+    background-color: rgb(67, 109, 110);
+    color: white;
+}
+.product-style{
+    background-color: aliceblue;
+    padding-top: 3em;
+}
+.contact-btn{
+    background-color: rgb(4, 180, 4);
+    color: white;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+#contact{
+    background-color: aliceblue;
+    padding-bottom: 1em;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .gambar-produk{
+        display: none;
+    }
+}

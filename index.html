@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERBOSE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/images/verbose-logo.png" alt="Logo" width="30" height="26" class="d-inline-block align-text-top">
+                <span class="brand-name">VERBOSE</span>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#product">Product</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!--header-->
+    <header class="jumbotron jumbotron-fluid background-header">
+        <div class="container-fluid text-end pe-3">
+            <p class="display-3 pt-5" style="color: white;">Mari Suarakan Idemu</p>
+            <p class="lead" style="font-weight: bold;color: white; word-spacing: 4px;">Platform yang membantumu memberikan kebebasan berbicara dimanapun dan kapanpun</p>
+            <p class="header-button">
+                <a href="#product" class="btn btn-gabung btn-lg" role="button">Gabung Sekarang</a>
+                <a href="#services" class="btn btn-secondary btn-lg" role="button">Pelajari Dulu</a>
+            </p>
+        </div>
+    </header>
+
+    <!--services-->
+    <section id="services" class="container services-style">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2 class="display-4 pb-4">Mengapa Memilih Kami?</h2>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                    <i class="bi bi-people-fill text-cadet" style="font-size: 2em;"></i>
+                    <h3>Dukungan Komunitas</h3>
+                    <p>Memperbanyak insight serta networking</p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <i class="bi bi-bar-chart-line-fill text-cadet" style="font-size: 2em;"></i>
+                <h3>Percaya Diri</h3>
+                <p>Melatih skill berbicara dan intonasi</p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <i class="bi bi-grid-1x2-fill text-cadet" style="font-size: 2em;"></i>
+                <h3>Akses Mudah</h3>
+                <p>Mencari dengan cepat konten audio yang relevan</p>
+            </div>
+
+            <div class="col-12 pt-4 mb-5">
+                <a  class="btn text-white btn-lg services-btn-style" href="#product" role="button">Jelajahi Sekarang</a>
+            </div> 
+        </div>
+
+    </section>
+
+    <!--product-->
+    <section id="product" class="container product-style">
+        <div class="row text-center">
+
+            <div class="col-12 mb-4">
+                <h2 class="display-4">Produk Kami</h2>
+                <p style="font-weight: bold;">bangun Karakter Anda Bersama Kami Dengan konten yang relevan dan menarik setiap harinya</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                
+
+                <div class="col-12 col-md-4">
+                  <div class="card mb-4 rounded-3 shadow-sm" style="margin-left: 25px;">
+                    <div class="card-header py-3">
+                      <h4 class="my-0 fw-normal">Gratis</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">Rp0</h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Dengarkan audio relevan</li>
+                        <li>Tambahkan catatan dan pengingat</li>
+                        <li>relasi serta pengikut</li>
+                        <li>Diskusi dengan pengguna</li>
+                      </ul>
+                      <button onclick="tombol()" type="button" class="w-100 btn btn-lg btn-gabung">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 gambar-produk">
+                  <img src="/images/verbose-logo.png" alt="VERBOSE logo" style="height: 280px;">
+              </div>
+
+                <div class="col-12 col-md-4">
+                  <div class="card mb-4 rounded-3 shadow-sm border-primary" style="margin-left: 25px;">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                      <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">Rp79.000<small class="text-body-secondary fw-light">/bulan</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Dengarkan audio yang terbatas</li>
+                        <li>Tanpa batasan upload audio</li>
+                        <li>Hilangkan iklan</li>
+                        <li>Download ekspor audio</li>
+                      </ul>
+                      <button onclick="tombol()" type="button" class="w-100 btn btn-lg btn-primary">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+        
+    </section>
+
+    <!--about-->
+    <section id="about" class="container">
+      <div class="row text-center mt-3">
+        <div class="col-12 col-md-6 pt-4">
+          <img class="rounded mx-auto gambar-produk" style="width: 470px; height: 320px;" src="/images/ceo.jpg" alt="ferdyddb">
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6 pt-4 text-start tulisanSm">
+          <h3 class="display-5 text-start">CEO & FOUNDER</h3>
+          <h5 class="text-start mt-5 mb-4" style="font-weight: bold;"><a onclick="tombol()" href="#" style="text-decoration: none;">Tirto Iskandar Wibawa</a></h5>
+          <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde harum sed, ea eveniet magnam minus cupiditate alias, odit quibusdam similique repellendus laudantium dicta eum expedita eius deleniti exercitationem? Dolores, provident?</p>
+        </div>
+
+        <div class="col-12 col-md-6 pt-4 text-start">
+          <h3 class="display-5 text-start">CO FOUNDER</h3>
+          <h5 class="text-start mt-5 mb-4" style="font-weight: bold;"><a onclick="tombol()" href="#" style="text-decoration: none;">Zulfikar Ruslan Wibawa</a></h5>
+          <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde harum sed, ea eveniet magnam minus cupiditate alias, odit quibusdam similique repellendus laudantium dicta eum expedita eius deleniti exercitationem? Dolores, provident?</p>
+        </div>
+
+          <div class="col-12 col-md-6">
+            <img class="rounded mx-auto gambar-produk mb-5" style="width: 470px; height: 320px;" src="/images/cofounder.jpg" alt="ferdyddb">
+          </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg-12">
+            <h2 class="display-4">Hubungi Kami</h2>
+            <p style="font-weight: bold;">Ingin mengenal kami lebih lanjut? Segera kunjungi kontak kami</p>
+            <button onclick="tombol()" class="btn btn-lg contact-btn"><i class="bi bi-whatsapp"></i> Whatsapp</button>
+          </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-dark text-center mt-5">
+      <div class="col-12" style="color: white; padding: 10px;">
+        <a onclick="tombol()" href="#" class="text-light"><i class="bi bi-youtube"></i></a>
+        <a onclick="tombol()" href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+        <a onclick="tombol()" href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+        <p class="text-secondary">copyright VERBOSE 2024</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>
